@@ -1,0 +1,72 @@
+// ShortSprint Translation File (EN) v1.20
+
+"Phrases"
+{
+	"CHAT_MSG_ANNOUNCEMENT"
+	{
+		"#format"		"{1:s}"
+		"en"			"Type {1} in chat for help."
+	}
+
+	"CHAT_MSG_SPRINTUSING"
+	{
+		"en"			"You are now using Sprint!"
+	}
+
+	"CHAT_MSG_SPRINTENDING"
+	{
+		"en"			"Sprint has ended."
+	}
+
+	"CHAT_MSG_SPRINTABLE"
+	{
+		"en"			"You can use Sprint."
+	}
+
+	"INFOPANEL_TEXT_BUTTON"
+	{
+		"en"			"Press your 'use'-key\n(default: E) to sprint!"
+	}
+
+	"INFOPANEL_TEXT_NOBUTTON"
+	{
+		"#format"		"{1:s}"
+		"en"			"Type {1} in chat to sprint!"
+	}
+
+	"INFOPANEL_TEXT_SETTINGS"
+	{
+		"en"			"Settings"
+	}
+
+	"INFOPANEL_TEXT_MESSAGES"
+	{
+		"en"			"Messages"
+	}
+
+	"INFOPANEL_TEXT_PROGRESSBAR"
+	{
+		"en"			"Progress Bar"
+	}
+
+	"INFOPANEL_TEXT_SOUND"
+	{
+		"en"			"Sound"
+	}
+
+	"INFOPANEL_TEXT_BIND"
+	{
+		"#format"		"{1:s}"
+		"en"			"The sprint command can\nbe bound to a free key\nusing the console.\n \nFor example:\nbind \"q\" \"say {1}\""
+	}
+
+	"INFOPANEL_EXIT"
+	{
+		"en"			"Exit"
+	}
+
+	"HINT_TEXT_MISENTRY"
+	{
+		"en"			"At least one field must remain activated!"
+	}
+}

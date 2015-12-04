@@ -1,0 +1,86 @@
+﻿"Phrases"
+{
+	"Escribe !premios para gastar tus creditos en premios"
+	{
+		"en"		"Type !menu or press the button \".\" of your keyboard for open the main menu"
+		"es"		"Escribe !menu o presiona el boton \".\" de tu teclado para abrir el menu principal"
+	}
+        "Tus creditos"
+        {
+		"#format"	"{1:i}"
+		"en"		"Your credits: {1}"
+		"es"		"Tus creditos: {1}"
+        }
+        "Tus creditos actuales son"
+        {
+		"#format"	"{1:i}"
+		"en"		"Your present credits are: {1}"
+		"es"		"Tus creditos actuales son: {1}"
+        }
+
+        "Este premio no esta disponible para tu equipo"
+        {
+		"en"		"This award is not enabled for your team"
+		"es"		"Este premio no esta disponible para tu equipo"
+        }
+        "Necesitas creditos"
+        {
+		"#format"	"{1:i},{2:i}"
+		"en"		"Your credits: {1} You dont have enough credits! You need {2}"
+		"es"		"Tus creditos: {1} No tienes suficiente Creditos! Necesitas {2}"
+        }
+        "Pero si estas muerto"
+        {
+		"en"		"You are dead... stupid !! xDD"
+		"es"		"Pero si estas muerto... so bobo !! xDD"
+        }
+        "ZombiePlague by Franug. Tus creditos"
+        {
+		"#format"	"{1:i}"
+		"en"		"JailBreak by Franug. Your credits: {1}"
+		"es"		"JailBreak by Franug. Tus creditos: {1}"
+        }
+
+        "No puedes comprar cosas siendo un ser especial"
+        {
+		"en"		"You cant buy things in this time."
+		"es"		"No puedes comprar cosas en este momento."
+        }
+        "Tienes que estar vivo para poder comprar premios"
+        {
+		"en"		"You need to be alive to buy prizes"
+		"es"		"Tienes que estar vivo para poder comprar premios"
+        }
+        "Entregados"
+        {
+		"#format"			"{1:i},{2:s}"
+		"en"		"Credits are sent it {1} to the player {2}"
+		"es"		"Entregados {1} creditos al jugador {2}"
+        }
+        "Te ha Entregado"
+        {
+		"#format"			"{1:i},{2:s}"
+		"en"		"You received credits {1} from the player {2}"
+		"es"		"Te ha Entregado {1} creditos el jugador {2}"
+        }
+        "Guardias"
+        {
+		"en"		"Guards"
+		"es"		"Guardias"
+        }
+        "Presos"
+        {
+		"en"		"Prisioners"
+		"es"		"Presos"
+        }
+        "Ambos"
+        {
+		"en"		"both"
+		"es"		"ambos"
+        }
+        "Creditos"
+        {
+		"en"		"Credits"
+		"es"		"Creditos"
+        }
+}

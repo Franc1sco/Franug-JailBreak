@@ -1,0 +1,69 @@
+﻿// ShortSprint Translation File (DE) v1.20
+
+"Phrases"
+{
+	"CHAT_MSG_ANNOUNCEMENT"
+	{
+		"de"		"Tippe {1} im Chat für Hilfe."
+	}
+
+	"CHAT_MSG_SPRINTUSING"
+	{
+		"de"		"Du sprintest!"
+	}
+
+	"CHAT_MSG_SPRINTENDING"
+	{
+		"de"		"Sprint ist beendet."
+	}
+
+	"CHAT_MSG_SPRINTABLE"
+	{
+		"de"		"Du kannst jetzt sprinten."
+	}
+
+	"INFOPANEL_TEXT_BUTTON"
+	{
+		"de"		"Drücke die 'Benutzen'-Taste\n(Standard: E) um zu sprinten!"
+	}
+
+	"INFOPANEL_TEXT_NOBUTTON"
+	{
+		"de"		"Tippe {1} in den Chat\num zu sprinten!"
+	}
+
+	"INFOPANEL_TEXT_SETTINGS"
+	{
+		"de"		"Einstellungen"
+	}
+
+	"INFOPANEL_TEXT_MESSAGES"
+	{
+		"de"		"Mitteilungen"
+	}
+
+	"INFOPANEL_TEXT_PROGRESSBAR"
+	{
+		"de"		"Ladebalken"
+	}
+
+	"INFOPANEL_TEXT_SOUND"
+	{
+		"de"		"Ton"
+	}
+
+	"INFOPANEL_TEXT_BIND"
+	{
+		"de"		"Der Sprint-Befehl kann\nüber die Konsole auf eine\nfreie Taste gebunden werden.\n \nBeispielsweise:\nbind \"q\" \"say {1}\""
+	}
+
+	"INFOPANEL_EXIT"
+	{
+		"de"		"Schließen"
+	}
+
+	"HINT_TEXT_MISENTRY"
+	{
+		"de"		"Mindestens ein Feld muss aktiviert bleiben!"
+	}
+}

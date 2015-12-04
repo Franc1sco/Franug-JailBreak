@@ -1,0 +1,14 @@
+﻿"Phrases"
+{
+        "glock"
+        {
+		"en"		"Buy Pistol Glock"
+		"es"		"Comprar Pistola Glock"
+        }
+	"Has comprado una glock"
+	{
+		"en"		"You bought an glock"
+		"es"		"Has comprado una glock"
+	}
+
+}

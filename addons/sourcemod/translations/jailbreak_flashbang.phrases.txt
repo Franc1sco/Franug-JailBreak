@@ -1,0 +1,14 @@
+﻿"Phrases"
+{
+        "flashbang"
+        {
+		"en"		"Buy Flashbang"
+		"es"		"Comprar cegadora"
+        }
+	"Has comprado una flashbang"
+	{
+		"en"		"You bought an flashbang"
+		"es"		"Has comprado una cegadora"
+	}
+
+}

@@ -1,0 +1,14 @@
+﻿"Phrases"
+{
+        "zeus"
+        {
+		"en"		"Buy ZEUS"
+		"es"		"Pistola electrica"
+        }
+	"Has comprado un arma ZEUS"
+	{
+		"en"		"You bought an ZEUS"
+		"es"		"Has comprado una pistola electrica"
+	}
+
+}

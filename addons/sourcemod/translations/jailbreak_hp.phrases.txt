@@ -1,0 +1,14 @@
+﻿"Phrases"
+{
+        "hp"
+        {
+		"en"		"Restore your health"
+		"es"		"Curarse a 100 de vida"
+        }
+	"Te has curado"
+	{
+		"en"		"You health is now 100"
+		"es"		"Te has curado"
+	}
+
+}

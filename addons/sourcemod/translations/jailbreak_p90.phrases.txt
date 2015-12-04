@@ -1,0 +1,14 @@
+﻿"Phrases"
+{
+        "p90"
+        {
+		"en"		"Buy P90"
+		"es"		"Comprar ametralladora P90"
+        }
+	"Has comprado una p90"
+	{
+		"en"		"You bought an P90"
+		"es"		"Has comprado una P90"
+	}
+
+}

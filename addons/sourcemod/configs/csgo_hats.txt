@@ -1,0 +1,318 @@
+"Hats"
+{
+			"None"
+			{
+				"model"	"none"
+			}
+			"Porcelain Doll"
+			{
+				"model"	"models/player/holiday/facemasks/porcelain_doll.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Zombie Fortune"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_zombie_fortune_plastic.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Wolf"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_wolf.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Tiki"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_tiki.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+
+			"Spy"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_tf2_spy_model.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+
+			"Soldier"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_tf2_soldier_model.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Sniper"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_tf2_sniper_model.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Scout"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_tf2_scout_model.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Pyro"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_tf2_pyro_model.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Medic"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_tf2_medic_model.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Heavy"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_tf2_heavy_model.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Engineer"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_tf2_engi_model.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Demoman"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_tf2_demo_model.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Skull"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_skull.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Skull (Gold)"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_skull_gold.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Sheep"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_sheep_model.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Sheep (Gold)"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_sheep_gold.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Sheep (Bloody)"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_sheep_bloody.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Samurai"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_samurai.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Pumpkin"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_pumpkin.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Porcelain Doll Kabuki"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_porcelain_doll_kabuki.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Hoxton"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_hoxton.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Devil"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_devil_plastic.mdl"
+				"attachment" "facemask"
+				"price" "450"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Dallas"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_dallas.mdl"
+				"attachment" "facemask"
+				"price" "420"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Chicken"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_chicken.mdl"
+				"attachment" "facemask"
+				"price" "420"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Chains"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_chains.mdl"
+				"attachment" "facemask"
+				"price" "420"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Bunny"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_bunny.mdl"
+				"attachment" "facemask"
+				"price" "520"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Bunny (Gold)"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_bunny.mdl"
+				"attachment" "facemask"
+				"price" "620"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Boar"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_boar.mdl"
+				"attachment" "facemask"
+				"price" "520"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Anaglyph"
+			{
+				"model"	"models/player/holiday/facemasks/facemask_anaglyph.mdl"
+				"attachment" "facemask"
+				"price" "520"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+
+			"Evil Clown"
+			{
+				"model"	"models/player/holiday/facemasks/evil_clown.mdl"
+				"attachment" "facemask"
+				"price" "520"
+				"type" "hat"
+				"games" "csgo"
+				"slot" "3"
+			}
+}

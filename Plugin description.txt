@@ -1,0 +1,61 @@
+Requeriments:
+
+The last version of SM_Hosties
+Jail doors -> https://forums.alliedmods.net/showthread.php?p=2306018
+
+
+
+Description:
+
+Recently I made a big jailbreak plugin for my spanish jailbreak server with special days and jail shop like cs 1.6 style. Also include a very structured menu where you can found all.
+ 
+ 
+Pressing the button "." of your keyboard appear the main menu.
+ 
+The main menu is:
+ 
+(this opcion only appear to guards)Be simon (or Simon menu is you already are simon)
+(this opcion only appear to guards) Choose weapons (for guards can select their weapons in spawn)
+Jail shop
+Hats menu
+Read rules
+Admin menu
+ 
+Simon menu have:
+ 
+Press jail cells (for open or close jail cells with the simon's menu)
+Give FreeDay to everybody
+Give FreeDay to someone (next, a menu with all the prisioners appear)
+Kill a random prisioner (feature for some jail games where the simon say "now a random prison will die")
+Enable/Disable Friendly fire (jail box for make fight prisioners vs prisioners and the FF dont affect to guards, only prisioners)
+Leave Simon
+ 
+ 
+The day are random in the round start. The Day Jails are:
+ 
+Simon day
+A random guard is selected as Simon
+ 
+Zombie day
+The jails cells are opened automatically and prisioners receive weapons. Guards are zombies with a zombie skin, with knockback (like a zombie server) and with 10000 HP. Include darkness effect in the map ( http://steamcommunity.com/sharedfiles/filedetails/?id=371086553 )
+ 
+ 
+HideNseek Day
+Guards will be frozen for 1 minute and the prisoners have to hide within the one minute. When 1 minute is reached, guards are unfrozen and prisioners are frozen, also the darkness affect is turned ON. Guards are a big transparent chicken for be visible for prisioners ( http://steamcommunity.com/sharedfiles/filedetails/?id=380163318 ).
+ 
+ 
+NoScope day
+Jail cells are opened automatically, the gravity is very low (big jumps), prisioners cant kill to guards and guards have a AWP but they cant use the awp zoom.
+ 
+War Day
+Prisioners are frozen the first 30 seconds. Time where the guards can be distributed around the map. Then prisioners and guards receive weapons and the War start.
+ 
+ 
+War Free For All Day
+In the first 30 seconds cant attack. Time where the all can be distributed around the map. Then prisioners and guards receive weapons and the War start where only one can survive.
+ 
+Freeze Tag Day
+The guards must catch prisioners for freeze him but prisioners can save to teammates if they touch him
+ 
+FreeDay Day
+All prisioners receive FreeDay and the jail cells are opened automatically.
