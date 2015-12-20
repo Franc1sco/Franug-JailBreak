@@ -2,25 +2,26 @@
 #include <sdktools>
 #include <franug_jb>
 #include <cstrike>
+#include <captain>
 
 new rondas;
 new bool:elegido;
 new suerte;
 
-new Handle:cvar, Handle:cvar_rondas;
+new Handle:cvar;
 
 public OnPluginStart()
 {
 	HookEvent("round_prestart", roundStart2, EventHookMode_Pre);
 	
-	RegAdminCmd("sm_rondas", Rondas, ADMFLAG_GENERIC);
-	RegAdminCmd("sm_days", Rondas, ADMFLAG_GENERIC);
+	RegConsoleCmd("sm_days", Rondas);
 	
-	cvar_rondas = CreateConVar("sm_franugjailbreak_day", "3", "Each X rounds, start a special day");
 }
 
 public Action:Rondas(client, args)
 {
+	if(JC_GetCaptain() !=  client) return;
+	
 	new Handle:menu = CreateMenu(DIDMenuHandler);
 	SetMenuTitle(menu, "Jail Days");
 	AddMenuItem(menu, "1", "FreeDay");
@@ -30,7 +31,7 @@ public Action:Rondas(client, args)
 	AddMenuItem(menu, "5", "War");
 	AddMenuItem(menu, "6", "War all vs all");
 	AddMenuItem(menu, "7", "No scope");
-	AddMenuItem(menu, "8", "Simon");
+	//AddMenuItem(menu, "8", "Simon");
 	SetMenuExitButton(menu, true);
 	DisplayMenu(menu, client, MENU_TIME_FOREVER);
 }
@@ -45,6 +46,7 @@ public DIDMenuHandler(Handle:menu, MenuAction:action, client, itemNum)
 		
 		suerte = StringToInt(info);
 		elegido = true;
+		CS_TerminateRound(1.0, CSRoundEnd_GameStart);
 		
 		PrintToChat(client, "day selected");
 		
@@ -62,12 +64,6 @@ public OnMapStart()
 
 public Action:roundStart2(Handle:event, const String:name[], bool:dontBroadcast) 
 {
-	if(rondas > GetConVarInt(cvar_rondas))
-	{
-		rondas = 0;
-		elegido = true;
-		suerte = GetRandomInt(1, 8);
-	}
 	
 	rondas++;
 	//SetCvar("sm_jb_doorsopenertime", 50);

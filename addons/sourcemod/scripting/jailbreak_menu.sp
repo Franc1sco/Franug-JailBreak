@@ -23,13 +23,17 @@ public Action:DOMenu(client,args)
 {
 	new Handle:menu = CreateMenu(DIDMenuHandler);
 	SetMenuTitle(menu, "JailBreak cs 1.6 style by Franc1sco Franug");
-	if(JC_GetCaptain() == client) AddMenuItem(menu, "simonmenu", "Simon Menu");
+	if(JC_GetCaptain() == client) 
+	{
+		AddMenuItem(menu, "days", "Choose Day");
+		AddMenuItem(menu, "simonmenu", "Simon Menu");
+	}
 	else if(GetClientTeam(client) == CS_TEAM_CT) AddMenuItem(menu, "sersimon", "Be Simon");
 /* 	if(GetClientTeam(client) == CS_TEAM_CT) AddMenuItem(menu, "tt", "Ser preso");
 	else if(GetClientTeam(client) == CS_TEAM_T) AddMenuItem(menu, "ct", "Ser guardia (Micro requerido)"); */
 	
 	if(GetClientTeam(client) == CS_TEAM_CT) AddMenuItem(menu, "guns", "Choose weapons");
-	AddMenuItem(menu, "tienda", "Shop");
+	//AddMenuItem(menu, "tienda", "Shop");
 	
 	AddMenuItem(menu, "hats", "Hats Menu");
 	//AddMenuItem(menu, "normas", "Leer normas");
@@ -63,6 +67,10 @@ public DIDMenuHandler(Handle:menu, MenuAction:action, client, itemNum)
 		else if ( strcmp(info,"tienda") == 0 ) 
 		{
 			FakeClientCommand(client, "sm_awards");
+		}
+		else if ( strcmp(info,"days") == 0 ) 
+		{
+			FakeClientCommand(client, "sm_days");
 		}
 		else if ( strcmp(info,"hats") == 0 ) 
 		{
