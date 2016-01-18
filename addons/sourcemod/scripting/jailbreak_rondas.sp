@@ -46,7 +46,7 @@ public DIDMenuHandler(Handle:menu, MenuAction:action, client, itemNum)
 		
 		suerte = StringToInt(info);
 		elegido = true;
-		CS_TerminateRound(1.0, CSRoundEnd_GameStart);
+		CS_TerminateRound(1.0, CSRoundEnd_Draw);
 		
 		PrintToChat(client, "day selected");
 		

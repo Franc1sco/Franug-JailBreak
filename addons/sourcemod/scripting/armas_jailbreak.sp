@@ -590,6 +590,9 @@ ListaArmas()
 	Format(Items[nombre], 64, "weapon_hkp2000");
 	Format(Items[desc], 64, "P2000");
 	PushArrayArray(array_secundarias, Items[0]);
+	Format(Items[nombre], 64, "weapon_revolver");
+	Format(Items[desc], 64, "Revolver");
+	PushArrayArray(array_secundarias, Items[0]);
 	
 }
 

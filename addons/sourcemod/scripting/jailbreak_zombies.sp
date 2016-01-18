@@ -126,7 +126,11 @@ public Event_PlayerSpawn(Handle:event, const String:name[], bool:dontBroadcast)
 	if(GetClientTeam(client) == CS_TEAM_CT && IsPlayerAlive(client))
 	{	
 		Zombie(client);
-		if(quieto) SetEntPropFloat(client, Prop_Data, "m_flLaggedMovementValue", 0.0);
+		if(quieto) 
+		{
+			//PrintToChat(client, "congelao");
+			SetEntPropFloat(client, Prop_Data, "m_flLaggedMovementValue", 0.0);
+		}
 	}
 	else SetEntityHealth(client, 65);
 }
