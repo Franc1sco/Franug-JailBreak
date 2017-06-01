@@ -126,17 +126,7 @@ public OnPluginStart()
 	g_CvarAllowCtCampDropped = CreateConVar("sm_anticamp_ct_camp_dropped", "0", "Set 1 to allow camping for CTs if bomb dropped. Is only needed if sm_anticamp_ct_camp is 0", 0, true, 0.0, true, 1.0);
 
 	decl String:gamedir[PLATFORM_MAX_PATH];
-	GetGameFolderName(gamedir, sizeof(gamedir));
-	if(strcmp(gamedir, "cstrike") == 0)
-	{
-		g_iGame = GAME_CSS;
-		WeaponConfigFile = "configs/anticamp_css_weapons.cfg";
-	}
-	else
-	{
-		g_iGame = GAME_CSGO;
-		WeaponConfigFile = "configs/anticamp_csgo_weapons.cfg";
-	}
+
 
 	HookEvent("player_spawn", EventPlayerSpawn, EventHookMode_Post);
 	HookEvent("player_death", EventPlayerDeath, EventHookMode_PostNoCopy);
